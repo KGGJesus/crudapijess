@@ -10,15 +10,15 @@ namespace PracticaTI.Services
     {
                 static List<Bebida> Bebidas {get;}
 
-        static int nextId = 4;
+        static int nextId = 5;
 
         static BebidaService ()
         {
             Bebidas = new List <Bebida> {
                 new Bebida {ID = 1, Name = "Agua de Jamaica", sodio = false},
                 new Bebida {ID = 2, Name = "Agua de Horchata", sodio = false},
-                new Bebida {ID = 2, Name = "Coca-cola ", sodio = false},
-                new Bebida {ID = 2, Name = "Fanta", sodio = false},
+                new Bebida {ID = 3, Name = "Coca-cola ", sodio = false},
+                new Bebida {ID = 4, Name = "Fanta", sodio = false},
             };
         }
     
